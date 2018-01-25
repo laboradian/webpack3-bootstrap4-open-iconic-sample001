@@ -1,0 +1,13 @@
+
+/*
+ Bootstrap の変数をここで上書きする
+*/
+
+//$body-bg: #000;
+//$body-color: #111;
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$icon-font-path: '../../node_modules/open-iconic/font/fonts/';
+@import "node_modules/open-iconic/font/css/open-iconic-bootstrap.scss";
